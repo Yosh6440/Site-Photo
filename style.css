@@ -8,7 +8,7 @@ body {
 header {
     display: flex;
     align-items: center; /* Aligne les éléments verticalement */
-    background-color: #333;
+    background-color: #eac7ab;
     padding: 0px; /* Ajustez la marge autour de l'en-tête */
 }
 
@@ -22,6 +22,11 @@ header img {
 /* Styles de la navigation */
 nav {
     width: 100%; /* Prend toute la largeur */
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin-right: 150px;
 }
 
 nav ul {
@@ -50,6 +55,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Optionnel : ajout d'un fond légèrement transparent au survol */
 }
 
+
 /* Styles de la bannière */
 .image-banner {
     display: flex; /* Utilise Flexbox pour aligner les images horizontalement */
@@ -67,4 +73,38 @@ nav a:hover {
 
 .image-banner img:hover {
     transform: scale(1.1); /* Zoom de 10% au survol */
+    justify-content: center;
 }
+
+
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+html body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Bad Script", cursive;
+    color: #fff;
+    font-size: 50px;
+    font: bold;
+
+}
+
+p {
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    
+}
+
