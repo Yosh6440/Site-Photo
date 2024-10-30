@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,72 +8,101 @@
     <link rel="shortcut icon" href="YR.png" />
     <link rel="stylesheet" href="style.css" /> <!-- Lien vers le fichier CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bad+Script&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
+
         <img src="./YR.png" alt="logo du site" />
         <nav>
             </div>
             <ul class="sidebar">
                 <li><a href="#">Accueil</a></li>
-                <li><a href="#">À propos</a></li>
+                <li><a href="#about">À propos</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
-                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>                
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
             </ul>
             <ul>
                 <li class="hideOnMobile"><a href="#">Accueil</a></li>
-                <li class="hideOnMobile"><a href="#">À propos</a></li>
+                <li class="hideOnMobile"><a href="#about">À propos</a></li>
                 <li class="hideOnMobile"><a href="#">Services</a></li>
                 <li class="hideOnMobile"><a href="#">Contact</a></li>
-                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>                
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
             </ul>
         </nav>
     </header>
-        <div>
-        <h1>Bienvenue</h1>
-        <p>Bienvenue sur YR Photography, votre destination ultime pour explorer le monde fascinant des animaux et de la nature. Plongez dans une galerie riche en images époustouflantes qui capturent la magie de notre planète. Que vous soyez passionné par les espèces sauvages, amateur de paysages majestueux ou simplement en quête d'inspiration, notre collection soigneusement sélectionnée saura émerveiller vos sens.
 
-            Chaque photo raconte une histoire unique, mettant en lumière la diversité et la fragilité de notre environnement. Rejoignez-nous dans notre voyage visuel et laissez-vous inspirer par la beauté sauvage qui nous entoure.</p>
+    <main>
+        <div>
+            <h1>Bienvenue</h1>
+            <p>Bienvenue sur YR Photography, votre destination ultime pour explorer le monde fascinant des animaux et de
+                la nature. Plongez dans une galerie riche en images époustouflantes qui capturent la magie de notre
+                planète. Que vous soyez passionné par les espèces sauvages, amateur de paysages majestueux ou simplement
+                en quête d'inspiration, notre collection soigneusement sélectionnée saura émerveiller vos sens.
+
+                Chaque photo raconte une histoire unique, mettant en lumière la diversité et la fragilité de notre
+                environnement. Rejoignez-nous dans notre voyage visuel et laissez-vous inspirer par la beauté sauvage
+                qui nous entoure.</p>
             <h2>Découvrez mes dernières créations</h2>
-    </div>
-    <div class="container">
-        <div class="wrapper">
-            <div class="wrapper-holder">
-                <div id="slider-image-1"></div>
-                <div id="slider-image-2"></div>
-                <div id="slider-image-3"></div>
-                <div id="slider-image-4"></div>
+        </div>
+        <div class="container">
+            <div class="wrapper">
+                <div class="wrapper-holder">
+                    <div id="slider-image-1"></div>
+                    <div id="slider-image-2"></div>
+                    <div id="slider-image-3"></div>
+                    <div id="slider-image-4"></div>
+                </div>
+            </div>
+            <div class="button-holder">
+                <a href="#slider-image-1" class="button"></a>
+                <a href="#slider-image-2" class="button"></a>
+                <a href="#slider-image-3" class="button"></a>
+                <a href="#slider-image-4" class="button"></a>
+
             </div>
         </div>
-        <div class="button-holder">
-            <a href="#slider-image-1"class ="button"></a>
-            <a href="#slider-image-2"class ="button"></a>
-            <a href="#slider-image-3"class ="button"></a>
-            <a href="#slider-image-4"class ="button"></a>
 
-        </div>
-    </div>
-    <h2>À propos</h2>
-    <article class="container1">
-        <img src="./images/Yellow Jouet.jpg" alt="chien">
-        <h2>Bienvenue dans mon univers photographique</h2>
-        <p>Passionné par la beauté du monde animal et la magie de la nature, je vous invite à explorer une collection de photos captivantes d'animaux de compagnie et de paysages enchanteurs. Chaque image raconte une histoire, que ce soit le regard affectueux d'un chien, la grâce d'un chat enjoué, ou la sérénité d'un coucher de soleil sur un lac.
-            Ma mission est de capturer ces instants précieux qui nous rappellent la joie simple que nous apporte la vie animale et la splendeur de notre environnement. Que vous soyez un amoureux des animaux, un passionné de nature, ou simplement en quête d'évasion, j'espère que ces images vous inspireront et vous toucheront.
-            N'hésitez pas à parcourir mes galeries et à partager vos coups de cœur. Ensemble, célébrons la beauté de notre monde !</p>
-    </article>
-<script>
-    function showSidebar() {
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'flex'
-    }
-    function hideSidebar() {
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'none'       
-    }
-</script>
+        <section id="about">
+            <h2>À propos</h2>
+            <div class="intro">
+                <img src="./images/Yellow Jouet.jpg" alt="chien">
+                <h2>Bienvenue dans mon univers photographique</h2>
+                <p>Passionné par la beauté du monde animal et la magie de la nature, je vous invite à explorer une
+                    collection de photos captivantes d'animaux de compagnie et de paysages enchanteurs. Chaque image
+                    raconte une histoire, que ce soit le regard affectueux d'un chien, la grâce d'un chat enjoué, ou la
+                    sérénité d'un coucher de soleil sur un lac.
+                    Ma mission est de capturer ces instants précieux qui nous rappellent la joie simple que nous apporte
+                    la vie animale et la splendeur de notre environnement. Que vous soyez un amoureux des animaux, un
+                    passionné de nature, ou simplement en quête d'évasion, j'espère que ces images vous inspireront et
+                    vous toucheront.
+                    N'hésitez pas à parcourir mes galeries et à partager vos coups de cœur. Ensemble, célébrons la
+                    beauté de notre monde !</p>
+            </div>
+        </section>
+    </main>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 
 </body>
+
 </html>

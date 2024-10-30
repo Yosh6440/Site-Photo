@@ -1,4 +1,9 @@
 /* Styles généraux */
+main{
+    width: 80%;
+    margin: auto;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -42,7 +47,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     border: 2px solid transparent; /* Bordure transparente par défaut */
     padding: 5px 10px; /* Espace autour du texte */
@@ -96,6 +101,7 @@ nav a:hover {
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
+        display: flex;
     }
 }
 
@@ -224,7 +230,9 @@ h2 {
     100%{transform: translateX(0%);}
 }
 
-.container1 {
+
+
+#about .intro {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
@@ -232,15 +240,15 @@ h2 {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.container1 h2{
+#about .intro h2{
     margin-bottom: 10px;
 }
 
-.container1 p{
+#about .intro p{
     line-height: 1.4;
 }
 
-img {
+#about img {
     width: 200px;
     height: 200px;
     object-fit: cover;
