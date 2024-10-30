@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     align-items: center; /* Aligne les éléments verticalement */
-    background-color: #eac7ab;
+    background-color:#f3cba5 ;
     padding: 0px; /* Ajustez la marge autour de l'en-tête */
 }
 
@@ -47,7 +47,7 @@ nav li {
 }
 
 nav a {
-    color: #ffffff;
+    color:#25161b ;
     text-decoration: none;
     border: 2px solid transparent; /* Bordure transparente par défaut */
     padding: 5px 10px; /* Espace autour du texte */
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    border-color: #fff; /* Couleur de la bordure au survol (blanc) */
+    border-color:#453953 ; /* Couleur de la bordure au survol (blanc) */
     border-width: 4px; /* Augmente la largeur de la bordure au survol */
     background-color: rgba(255, 255, 255, 0.1); /* Optionnel : ajout d'un fond légèrement transparent au survol */
 }
@@ -125,14 +125,14 @@ h1 {
     justify-content: center;
     text-align: center;
     font-family: "Bad Script", cursive;
-    color: #eac7ab;
+    color: #f3cba5;
     font-size: 50px;
     font: bold;
 
 }
 
 p {
-    color: #eac7ab;
+    color:#f3cba5;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
@@ -141,7 +141,7 @@ p {
 }
 
 h2 {
-    color: #eac7ab;
+    color:#f3cba5;
     font-family: "Bad Script", cursive;
     margin-left: 50px;
 }
@@ -166,36 +166,33 @@ h2 {
     animation: slider 30s ease-in-out infinite alternate;
 }
 
-.container #slider-image-1{
-    background-image: url(./images/Photo\ Bouc.jpg);
+.container #slider-image-1, #slider-image-2, #slider-image-3, #slider-image-4 {
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50px;
     
 }
+
+.container #slider-image-1{
+    background-image: url(./images/Photo\ Bouc.jpg);
+}
+
 .container #slider-image-2{
     background-image: url(./images/Oiseau.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50px;
     
 }
 .container #slider-image-3{
     background-image: url(./images/Chat.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50px;
+
 }
 .container #slider-image-4{
     background-image: url(./images/Poules.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50px;
+
 }
+
+
 
 .container .button-holder .button {
     background-color: #fff;
@@ -257,3 +254,50 @@ h2 {
     shape-outside: margin-box;
     margin: 0px 20px 5px 0px;
 }
+
+#services p {
+
+    text-align: center;
+}
+
+img {
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+display: inline-block;
+}
+
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
