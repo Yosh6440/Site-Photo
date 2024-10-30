@@ -223,3 +223,29 @@ h2 {
     90%{transform: translateX(0%);}
     100%{transform: translateX(0%);}
 }
+
+.container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container1 h2{
+    margin-bottom: 10px;
+}
+
+.container1 p{
+    line-height: 1.4;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0px 20px 5px 0px;
+}
