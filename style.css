@@ -308,7 +308,7 @@ h2 {
 
 .container-contact {
     min-height: 100vh;
-    background: #975a5e44;
+    background: #00000059;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,6 +324,7 @@ h2 {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
+    
 }
 
 .container-contact form h2 {
@@ -344,6 +345,7 @@ h2 {
     margin-bottom: 10px;
     background: none;
     border-bottom: 2px solid #f3cba5 ;
+    color: #fff;
 }
 
 .container-contact form input::placeholder{
@@ -352,5 +354,60 @@ h2 {
 
 .container-contact form #prénom,
 .container-contact form #nom{
+    margin-left: 20px;
+}
+
+.container-contact form h4 {
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container-contact form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 80px;
+    min-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194, 194, 194, 0.713);
+
+}
+
+.container-contact form #button-send{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+
+
+footer{
+    height: 400px;
+    background:#f3cba5 ;
+   
     
 }
